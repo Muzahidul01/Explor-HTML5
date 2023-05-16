@@ -7,9 +7,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explor HTMl:5</HTMl:5>
     </title>
+    <style>
+        ul {
+            display: inline-flex;
+        }
+
+        nav li {
+            list-style: none;
+            text-underline-offset: none;
+            margin-right: 200px;
+
+
+        }
+
+        li:hover {
+            background-color: lightblue;
+        }
+
+        nav li a {
+            text-decoration-line: none;
+
+            color: black;
+        }
+
+        .pp {
+
+            display: none;
+            position: absolute;
+        }
+
+        nav>ul>li:hover>ul {
+            display: block;
+        }
+
+        h1 {}
+    </style>
 </head>
 
 <body>
+    <header>
+
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="tabil.html">Table</a></li>
+                <li><a href="About.html">About Us
+                        <ul class="pp">
+                            <li><a href="">1</a></li>
+                            <li><a href="">2</a></li>
+                            <li><a href="">3</a></li>
+                        </ul>
+                    </a></li>
+            </ul>
+        </nav>
+        <h1>This Is My Main Website It is nothing to said great it is really simple and bad looking Website</h1>
+    </header>
+
+    <br>
+    <br>
+    <br>
+
     <audio src="media/audio/Royalty Free Audio Tracks - Envato Elements.mp3" controls></audio>
     <video src="media/video/Dmitry Varennikov - Photography.mp4" controls autoplay> nothing</video>
 </body>
